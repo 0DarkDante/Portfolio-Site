@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <!-- Header nav -->
+            <div class="header-nav">
+                <a href="#!" class="logo">VK</a>
+
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Works</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Header content -->
+            <div class="header-row">
+
+                <div class="header-content" data-aos="fade-up">
+                    <h1 class="header-heading">Vadym Kulinich<br> <span>Frontend developer</span></h1>
+                    <p> I am a purposeful developer from Kharkiv. 
+                        I take pride in my ability to turn designs into interactive web applications that bring joy to users.
+                        Let's create something amazing together! 
+                    </p>
+                </div>
+
+                <div class="header-img" data-aos="fade-left">
+
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./img/header/hero-mobile.png">
+                        <img src="./img/header/hero.png" alt="">
+                    </picture>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <div class="services-row">
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/01.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">UI/UX Design</h3>
+                    <p>
+                        My goal is not just to create interfaces, but to bring the user experience to life through intuitive and visually appealing design solutions.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/02.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">Development</h3>
+                    <p>I will bring our ideas to life through carefully designed web applications.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/03.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">software testing</h3>
+                    <p>My mission is to ensure the reliability and quality of software through rigorous testing and analysis.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-title">
+                <h2 class="title-1">Portfolio</h2>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/01.png" alt="Online fashion store" class="project-img">
+                <h3 class="project-title"><a href="https://github.com/0DarkDante/KinoMonster2.0" target="_blank"><>Online cinema - main page</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/02.png" alt="Reebok Store" class="project-img">
+                <h3 class="project-title"><a href="https://github.com/0DarkDante/KinoMonster" target="_blank"><>Online cinema 2 - main page</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/03.png" alt="Braun Landing Page" class="project-img">
+                <h3 class="project-title"><a href="https://github.com/0DarkDante/Graduate-work" target="_blank">Online store of football shoes - Home page</a></h3>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="contacts">
+        <div class="container">
+            <div class="contacts-title">
+                <h2 class="title-1">Contacts</h2>
+            </div>
+            <div class="contacts-content" data-aos="fade-down">
+                <p>Want to know more or just chat?<br> You are welcome!</p>
+            </div>
+            <div class="contacts-button" data-aos="fade-down">
+                <a href="mailto:https://mail.google.com/mail/u/0/#inbox" class="btn">Send message</a>
+            </div>
+            <div class="contacts-social" data-aos="zoom-in">
+                <a href="https://www.linkedin.com/in/vk-frontend-developer/" target="_blank"><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/_v_a_d_i_k/" target="_blank"><img src="./img/socials/Instargam.svg" alt="Instargam"></a>
+                <a href="https://t.me/VadikKulinich" target="_blank"><img src="./img/socials/Telegram.png" alt="Telegram"></a>
+                <a href="https://github.com/0DarkDante" target="_blank"><img src="./img/socials/GitHub.png" alt="GitHub"></a>
+            </div>
+            <div class="contacts-footer" data-aos="fade-up">
+                <p>Like me on<br> LinkedIn, Instagram, Telegram, GitHub</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
